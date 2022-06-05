@@ -1,0 +1,66 @@
+.page {
+  background-color: #f6f1f1;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  height: 70vh;
+  width: 50vh;
+  background-color: white;
+  /* box-shadow: 5px 5px 2px whitesmoke; */
+}
+
+.image {
+  margin-top: 10%;
+  display: flex;
+  justify-content: left;
+  margin-left: 10%;
+}
+
+.text {
+  margin-top: 10%;
+  display: flex;
+  justify-content: left;
+  margin-left: 10%;
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "Segoe UI", "Helvetica Neue", "Lucida Grande", "Roboto";
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  height: auto;
+}
+
+.label {
+  align-items: center;
+}
+
+.input {
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.input:focus,
+.input:active {
+  outline: none;
+}
+
+.button {
+  color: #fff;
+  border-color: #0067b8;
+  background-color: #0067b8;
+  display: block;
+  width: 40%;
+  height: 15%;
+  position: relative;
+  left: 55%;
+}
